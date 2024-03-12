@@ -1,7 +1,8 @@
 from flask import Blueprint
-api = Blueprint('api', __name__, url_prefix='/')
+
+api = Blueprint("api", __name__)
 
 
-@api.route("hello_world")
-def hello_world():
-    return 'Hello World!'
+@api.route("/")
+def index():
+    return "Hello World!"

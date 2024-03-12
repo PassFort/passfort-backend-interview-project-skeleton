@@ -1,5 +1,11 @@
 # Python/Flask
 
-This directory contains a skeleton API project written in Python using Flask. You will need to have [Flask](https://flask.palletsprojects.com/en/3.0.x/installation/) and [Pytest](https://docs.pytest.org/en/7.1.x/getting-started.html#:~:text=Run%20the%20following%20command%20in%20your%20command%20line%3A) installed to run this project.
+This directory contains a skeleton API project written in Python using Flask.
+
+The project is set up to use [Poetry](https://python-poetry.org/) to manage dependencies.  
+To get started, [install Poetry](https://python-poetry.org/docs/#installation) and run the command `poetry install` in this directory.
+
+> [!TIP]
+> Poetry is entirely optional. Feel free to manage your dependencies in another way.
 
 Run `flask --app app run` to start the API.
