@@ -6,7 +6,7 @@ function createServer(port=8000) {
         console.log(`Listen port ${port}`)
     })
 
-    app.get('/hello_world', (req,res) => {
+    app.get('/', (req,res) => {
         res.status(200)
         res.send('Hello World!')
     })

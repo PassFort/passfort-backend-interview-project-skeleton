@@ -14,7 +14,7 @@ describe('Hello World', () => {
 
     it('Should return Hello World', async () => {
         await supertest(server)
-            .get('/hello_world')
+            .get('/')
             .expect(200)
             .then(response => expect(response.text).toBe("Hello World!"))
     })
